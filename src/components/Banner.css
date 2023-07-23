@@ -1,0 +1,103 @@
+.fade-img {
+  position: relative; 
+}
+
+.fade-img:after {
+  content:""; 
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  height: 60%;  
+}
+
+.card { 
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 350px;
+  margin: 20px auto;  
+  padding: 10px;
+  height: 425px;
+}
+
+.ccds{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card-heading {
+  font-weight: bold;
+  font-size: 24px;
+  display: block; 
+  padding: 5px 0;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image-container img {
+  width: 90%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden; 
+  margin-bottom: 10 px; /* Add margin to separate the image from the paragraph */
+  padding:5px;
+}
+  
+
+ 
+.link-container {
+  display: flex; 
+  padding-top: 10px;
+  font-weight: 1px;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: rgb(51, 159, 181);
+  font-weight: 5px;  
+  padding-top: 0px;
+}
+ 
+
+.link-container a:hover {
+  text-decoration: underline;
+}
+ 
+
+.card heading{
+  width: 100%;
+  height: absolute;
+}
+
+.allcards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.submit{
+  text-align: center;
+  background-color: rgb(255, 200, 0);
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px; 
+  display: block;
+  width: 330px;
+  text-align: center;
+}
+
+
+.image-one{
+  height: 330px;
+  width: 330px;
+}

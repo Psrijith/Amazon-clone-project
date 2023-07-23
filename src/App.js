@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Nav from "./components/Nav";
+import Banner from "./components/Banner";
+import Banner2 from "./components/Banner2";
+import Row from "./components/Row";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Banner />
+      <Banner2 />
+      <Row
+        query="dress"
+        h1Content="Up to 50% off | Women's clothing for all occasions"
+      />
+      <Row
+        query="boots"
+        h1Content="Up to 40% off | The finest designs and fits for you"
+      />
+      <Banner2 />
+      <Row
+        query="airpods"
+        h1Content="Up to 45% off | Wireless electronics make life easy"
+      />
+      <Row
+        query="rolex"
+        h1Content="Explore more watches - Royal Premium, increasing your royalty"n
+      />
+      <Footer />
     </div>
   );
 }

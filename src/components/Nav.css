@@ -1,0 +1,213 @@
+/*.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #000000;
+  justify-content: space-around;
+  display: flex;
+  z-index: 9999; /* Ensure the navigation bar is on top of other elements }*/
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #000000;
+  justify-content: space-around;
+  display: flex;    
+  z-index: 9999; 
+  position: fixed;
+}
+
+.logo {
+  padding: 1px 8px 0px 6px;
+  height: 70px;
+  width: 144px;
+  margin: 5px;
+}
+
+.nav .logo h5 {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.nav .logo:hover h5 {
+  display: block;
+}
+
+.loc {
+  padding-top: 8px;
+  justify-content: center;
+  height: 60px;
+  width: auto;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav .loc img {
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+}
+
+.nav .loc h4 {
+  display: flex;
+}
+
+.nav .loc h5 {
+  display: none;
+  background-color: #00ff51;
+}
+
+.addr {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.nav .loc:hover h5 {
+  display: block;
+}
+
+.search-bar {
+  border-radius: 15px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  overflow: hidden; /* Added overflow property */
+}
+
+.dropdown {
+  height: 40px;
+  width: 50px; /* Set the initial width to 50px */
+  background-color: rgb(235, 235, 235);
+  transition: width 0.3s ease;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-field {
+  height: 40px;
+  flex-grow: 1;
+  border: none;
+  width: 700px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.submit-button {
+  height: 40px;
+  width: 50px;
+  font-size: 28px;
+  background-color: rgb(244, 177, 100);
+  cursor: pointer;
+  border: none; /* Added border property */
+  outline: none; /* Added outline property */
+  border-radius: 0 5px 5px 0;
+}
+
+.dropdown-container {
+  display: inline-block;
+}
+
+.dropdown {
+  padding: 5px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .dropdown {
+    min-width: auto;
+  }
+}
+
+.lang {
+  margin-top: 10px;
+  display: flex;
+  background-color: #000000;
+  height: 50px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dplan {
+  background-color: #000000;
+  color: white;
+}
+
+.lang img {
+  height: 20px;
+  width: 20px;
+}
+/*txt*/
+.txt {
+  padding-top: 5px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+.txt h2 {
+  font-weight: bold; /* Add this line to make the h2 elemen t bold */
+}
+/*cart*/
+.cart {
+  height: 100%;
+  width: 70px;
+  background-color: ;
+  margin-right: 0px;
+}
+.cart img {
+  width: 100px; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+}
+
+.nav .cart h5 {
+  display: none;
+  background-color: #2bcbd9;
+}
+
+.nav .cart:hover h5 {
+  display: block;
+}
+
+.nav div:hover {
+  border: 2px solid white;
+}
+ 
+.nav-container {
+  padding-top: 60px; /* Add the same height as the navigation bar to create space */
+}
+
+.bbar {
+  height: 39px;
+  width: 100%;
+  color: white;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Center the navigation options vertically */
+}
+
+.bbar h3 {
+  font-size: 14px;
+  padding: 5px 10px; /* Add some spacing around the text */
+  cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
+
+.bbar h3:hover { 
+  border-radius: 5px; /* Add a slight border-radius for a rounded effect */
+  border: 1px solid #ffffff;
+}
