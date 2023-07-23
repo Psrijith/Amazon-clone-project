@@ -1,3 +1,12 @@
+
+# video 
+
+https://github.com/Psrijith/Amazon-clone-project/assets/118285872/e5f13241-31ff-455a-92e5-d527caf32d30
+
+
+# output Home page 
+![home](https://github.com/Psrijith/Amazon-clone-project/assets/118285872/611e2d79-ad06-482d-8595-47c6f280de68)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
